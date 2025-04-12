@@ -1,0 +1,33 @@
+langchain              # Main framework for building LLM (AI) apps — connects models, tools, and data
+
+ipykernel              # Lets Jupyter Notebooks run Python code (backend for notebooks)
+
+python-dotenv          # Loads secret keys & environment variables from a .env file (like API keys)
+
+langchain_community    # Extra plugins/loaders for LangChain (e.g. Arxiv, Wikipedia, PDFs, etc.)
+
+pypdf                  # Used by LangChain to read and extract text from PDF files
+
+bs4                    # "BeautifulSoup" — used to parse and extract text from HTML/web pages
+
+arxiv                  # Lets you search/download research papers from arXiv.org
+
+pymupdf                # Another PDF library — faster, sometimes used when pypdf doesn’t work well
+
+wikipedia              #  Allows searching and downloading Wikipedia content in Python
+
+langchain-text-splitters  # Extra text splitters for LangChain (e.g. RecursiveCharacterTextSplitter)
+
+langchain-openai       # OpenAI LLM wrapper for LangChain (e.g. GPT-3, GPT-4, etc.)
+
+chromadb               # Vector database for storing and searching embeddings (similar to Pinecone)
+
+sentence-transformers   # Library for generating embeddings (vector representations of text using hugging face)
+
+langchain_huggingface  # Hugging Face LLM wrapper for LangChain (e.g. BERT, DistilBERT, etc.)
+
+hf_xet  # for better performance of huggingface models
+
+faiss-cpu         # Facebook AI Similarity Search — used for fast similarity search in vector databases
+
+langchain_chroma # ChromaDB wrapper for LangChain (another vector database option)
