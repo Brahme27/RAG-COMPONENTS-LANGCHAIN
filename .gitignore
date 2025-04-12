@@ -1,0 +1,4 @@
+# used python 10 version for this project
+# conda create -p venv python==3.10 -y
+# conda activate venv
+venv/
